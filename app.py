@@ -6,7 +6,7 @@ import os
 from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
-
+application = app
 # Parameters for red color detection (default values)
 lower_hue = 0
 upper_hue = 10
